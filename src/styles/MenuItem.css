@@ -1,5 +1,5 @@
 .menuItem {
-  @apply bg-white rounded-lg overflow-hidden shadow-2xl transition transform duration-500 hover:scale-110 hover:shadow-inner cursor-pointer;
+  @apply bg-white rounded-lg overflow-hidden shadow-2xl transition transform duration-300 hover:scale-110 hover:shadow-inner cursor-pointer;
 }
 
 .menuItemImage {

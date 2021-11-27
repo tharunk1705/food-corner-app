@@ -6,6 +6,8 @@ import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Cart from "./pages/Cart";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
 
 const App = () => {
   return (
@@ -27,6 +29,7 @@ const App = () => {
         <Routes>
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <ToastContainer />
         <Footer />
       </Router>
     </div>
