@@ -6,21 +6,32 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import "../styles/Footer.css";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <Link to="/" className="icon github">
+        <a
+          href="https://www.github.com/tharunk1705"
+          target="blank"
+          className="icon github"
+        >
           <FontAwesomeIcon className="" icon={faGithub} />
-        </Link>
-        <Link to="/" className="icon insta">
+        </a>
+        <a
+          href="https://www.instagram.com/the__.dark.__knight/"
+          target="blank"
+          className="icon insta"
+        >
           <FontAwesomeIcon className="" icon={faInstagram} />
-        </Link>
-        <Link to="/" className="icon twitter">
+        </a>
+        <a
+          href="https://www.twitter.com/tharunk1705"
+          target="blank"
+          className="icon twitter"
+        >
           <FontAwesomeIcon className="" icon={faTwitter} />
-        </Link>
+        </a>
         <a
           href="https://www.linkedin.com/in/tharunk1705/"
           target="blank"
