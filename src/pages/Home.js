@@ -8,7 +8,7 @@ const Home = () => {
         <p className="text-3xl font-bold text-white  m-1">
           Indian food at a click.
         </p>
-        <Link to="/">
+        <Link to="/menu">
           <button className="bg-white px-2 py-2 rounded-lg m-1 text-secondary font-bold uppercase">
             Order Now!
           </button>
