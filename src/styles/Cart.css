@@ -1,0 +1,7 @@
+.cart {
+  @apply p-6 pb-16 md:p-16 mx-auto bg-gradient-conic-t from-pink-300 via-pink-500 to-indigo-600 bg-cover bg-no-repeat md:h-screen;
+}
+
+.cartTitle {
+  @apply text-2xl md:text-6xl flex flex-row justify-between items-center font-bold text-white md:text-center mb-4;
+}

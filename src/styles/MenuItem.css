@@ -11,9 +11,9 @@
 }
 
 .menuItemTitle {
-  @apply font-bold text-center;
+  @apply font-bold text-center text-xl;
 }
 
 .menuItemPrice {
-  @apply font-semibold bg-secondary p-2 text-white rounded-lg mt-3 text-center;
+  @apply flex justify-center items-center font-semibold text-4xl bg-gray-200 p-2 text-green-600 rounded-lg mt-3 text-center;
 }

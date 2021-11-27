@@ -1,6 +1,7 @@
 import MenuList from "../data/data";
 import MenuItem from "../components/MenuItem";
 import "../styles/Menu.css";
+
 const Menu = () => {
   return (
     <div className="menu">
@@ -12,6 +13,7 @@ const Menu = () => {
         {MenuList.map((menuItem, key) => {
           return (
             <MenuItem
+              id={menuItem.id}
               image={menuItem.image}
               name={menuItem.name}
               price={menuItem.price}

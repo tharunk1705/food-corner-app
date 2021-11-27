@@ -9,41 +9,44 @@ import Roti from "../assets/rotiwithmeat.jpg";
 
 const MenuList = [
   {
+    id: 1,
     name: "Chole Bhature",
     image: Chole,
     price: 150,
   },
+  { id: 2, name: "Masala Dosa", image: Dosa, price: 80 },
   {
-    name: "Masala Dosa",
-    image: Dosa,
-    price: 80,
-  },
-  {
+    id: 3,
     name: "Butter Paneer",
     image: Paneer,
     price: 150,
   },
   {
+    id: 4,
     name: "North Indian - Veg Meal",
     image: VegMeal,
     price: 230,
   },
   {
+    id: 5,
     name: "Gujrati Thali",
     image: Gujrati,
     price: 250,
   },
   {
+    id: 6,
     name: "Rajasthani Thali",
     image: Rajasthani,
     price: 299,
   },
   {
+    id: 7,
     name: "Pav Bhaji",
     image: PavBhaji,
     price: 149,
   },
   {
+    id: 8,
     name: "Roti- Chicken Tikka Combo",
     image: Roti,
     price: 199,
