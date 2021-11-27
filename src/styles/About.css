@@ -1,6 +1,5 @@
 .about {
-  @apply p-16 mx-auto bg-gradient-conic-t from-pink-300 via-pink-500 to-indigo-600 bg-cover bg-no-repeat;
-  height: 80vh;
+  @apply p-6 md:p-16 mx-auto bg-gradient-conic-t from-pink-300 via-pink-500 to-indigo-600 bg-cover bg-no-repeat;
 }
 
 .aboutTitle {

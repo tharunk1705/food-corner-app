@@ -26,7 +26,7 @@ const Footer = () => {
         </Link>
       </div>
       <p className="text-lg text-secondary font-bold mt-2">
-        &copy; 2021 FoodCorner.com
+        &copy; 2021 FoodieCorner.com
       </p>
     </div>
   );

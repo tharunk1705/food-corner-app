@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="leftSide">
         <div className="leftSideChildren">
           <img className="w-8 h-8" src={leaf} alt="Leaf Logo" />
-          <h2 className="mx-2  text-secondary">Food Corner</h2>
+          <h2 className="mx-2  text-secondary">Foodie Corner</h2>
         </div>
       </div>
       <div className="burgerMenu md:hidden flex items-center flex-row-reverse">
