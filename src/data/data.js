@@ -11,32 +11,32 @@ const MenuList = [
   {
     name: "Chole Bhature",
     image: Chole,
-    price: 250,
+    price: 150,
   },
   {
     name: "Masala Dosa",
     image: Dosa,
-    price: 280,
+    price: 80,
   },
   {
     name: "Butter Paneer",
     image: Paneer,
-    price: 350,
+    price: 150,
   },
   {
     name: "North Indian - Veg Meal",
     image: VegMeal,
-    price: 430,
+    price: 230,
   },
   {
     name: "Gujrati Thali",
     image: Gujrati,
-    price: 450,
+    price: 250,
   },
   {
     name: "Rajasthani Thali",
     image: Rajasthani,
-    price: 499,
+    price: 299,
   },
   {
     name: "Pav Bhaji",

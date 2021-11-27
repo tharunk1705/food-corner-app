@@ -15,10 +15,12 @@ const Navbar = () => {
   return (
     <div className="nav">
       <div className="leftSide">
-        <div className="leftSideChildren">
-          <img className="w-8 h-8" src={leaf} alt="Leaf Logo" />
-          <h2 className="mx-2  text-secondary">Foodie Corner</h2>
-        </div>
+        <Link to="/">
+          <div className="leftSideChildren">
+            <img className="w-8 h-8" src={leaf} alt="Leaf Logo" />
+            <h2 className="mx-2  text-secondary">Foodie Corner</h2>
+          </div>
+        </Link>
       </div>
       <div className="burgerMenu md:hidden flex items-center flex-row-reverse">
         <svg
