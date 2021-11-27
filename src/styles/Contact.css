@@ -1,0 +1,24 @@
+.contact {
+  @apply px-10 py-6 mx-auto bg-gradient-conic-t from-pink-300 via-pink-500 to-indigo-600 bg-cover bg-no-repeat;
+  height: 85vh;
+}
+
+.contactRightSide {
+  @apply w-full;
+}
+
+.input {
+  @apply flex flex-col;
+}
+
+.label {
+  @apply text-lg font-bold text-white;
+}
+
+.input {
+  @apply rounded-md py-2 px-5 focus:outline-none font-bold;
+}
+
+.sendButton {
+  @apply bg-white py-2 px-5 font-bold text-lg ml-5 text-secondary rounded-lg mt-3 hover:bg-secondary hover:text-white;
+}

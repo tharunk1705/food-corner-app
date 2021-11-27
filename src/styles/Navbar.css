@@ -1,0 +1,27 @@
+.nav {
+  @apply grid grid-cols-3 md:grid-cols-2 items-center justify-between text-primary p-4 shadow-md;
+}
+
+.leftSide {
+  @apply col-span-2 md:col-span-1;
+}
+
+.leftSideChildren {
+  @apply flex md:justify-start  w-full items-center font-montserrat font-bold text-xl md:text-2xl;
+}
+
+.burgerMenu {
+  @apply col-span-1;
+}
+
+.rightSide {
+  @apply col-span-3 md:col-span-1;
+}
+
+.navList {
+  @apply flex flex-col md:flex-row justify-center md:justify-evenly items-center;
+}
+
+.navListItem {
+  @apply w-full  md:text-xl text-right md:text-center hover:bg-secondary hover:text-white rounded-lg p-2;
+}
