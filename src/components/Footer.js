@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookF,
+  faGithub,
   faInstagram,
   faTwitter,
   faLinkedin,
@@ -12,8 +12,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <Link to="/" className="icon facebook">
-          <FontAwesomeIcon className="" icon={faFacebookF} />
+        <Link to="/" className="icon github">
+          <FontAwesomeIcon className="" icon={faGithub} />
         </Link>
         <Link to="/" className="icon insta">
           <FontAwesomeIcon className="" icon={faInstagram} />
@@ -21,9 +21,13 @@ const Footer = () => {
         <Link to="/" className="icon twitter">
           <FontAwesomeIcon className="" icon={faTwitter} />
         </Link>
-        <Link to="/" className="icon linkedin">
+        <a
+          href="https://www.linkedin.com/in/tharunk1705/"
+          target="blank"
+          className="icon linkedin"
+        >
           <FontAwesomeIcon className="" icon={faLinkedin} />
-        </Link>
+        </a>
       </div>
       <p className="text-lg text-secondary font-bold mt-2">
         &copy; 2021 FoodieCorner.com

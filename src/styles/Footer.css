@@ -7,11 +7,11 @@
 }
 
 .icon {
-  @apply flex justify-center items-center mx-3 text-2xl w-10 h-10 text-white rounded-full bg-blue-500;
+  @apply flex justify-center items-center mx-3 text-2xl w-10 h-10 text-white rounded-full bg-blue-500 transition transform duration-500 hover:scale-110;
 }
 
-.facebook {
-  @apply bg-blue-700 rounded-full;
+.github {
+  @apply bg-gray-800 rounded-full;
 }
 
 .insta {
